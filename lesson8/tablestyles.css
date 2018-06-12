@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+* {
+    font-family: Ubuntu, sans-serif;
+}
+table,
+th,
+td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+   
+}
+
+table {
+    /* box-shadow: 1px 4px 8px 1px rgba(127, 185, 194, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow: 8px 8px 12px #628ca6;
+}
+
+
+
+thead {
+    background-color: #7fb9c2;
+    font-size: 1.3em;
+    font-weight: bold;
+    
+}
+
+tbody>tr>th {
+    background-color: #628ca6;
+    color: white;
+    
+}
+
+tbody>tr:nth-child(even) {
+    background: #e7f0ed;
+}
+
+tbody>tr:nth-child(odd) {
+    background: #e7ffed;
+}
+
+tbody>tr:nth-child(5) td:nth-child(3){
+    background-color: #628ca6;
+    color: white;
+}
+
+tbody>tr:nth-child(6) td:nth-child(1){
+    font-style: italic;
+}
+
+tbody {
+    
+}
+
+tfoot {
+    font-size: .7em;
+    background-color: #7fb9c2;
+   
+
+}
+
+section {
+    display: inline-flex;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 20px;
+    
+}

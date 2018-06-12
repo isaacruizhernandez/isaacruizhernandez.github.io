@@ -1,0 +1,323 @@
+/*cell phone*/
+
+* { box-sizing: border-box;}  
+
+body {
+  font-size: 17px;
+  
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+
+
+header, nav, main, footer { 
+
+  
+}
+img {
+  max-width: 100%;
+  height: auto;
+  overflow: auto;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  background-color: #4971b2;
+  padding: 10px;
+  overflow: hidden;
+ 
+
+}
+header .logo {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;  
+  
+}
+
+  header .title {
+    width: auto;
+    
+
+  }
+header h1 {
+  color: #edecda;
+  
+
+}
+
+
+
+header .subheading {
+  color: #edecda;
+ 
+ 
+  
+}
+
+
+nav button {
+
+  font-size: 3em;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+
+
+h1, h2, h3, p {
+  display: block;
+  overflow: auto;
+  
+}
+h3 {
+  background-color:#4971af;
+  color: #edecda;
+  padding: 10px;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+
+}
+
+main {
+  padding: 30px;
+  
+  margin: 5px;
+
+}
+main h2 {
+  font-weight: bold;
+
+}
+
+
+
+main figure { 
+  
+  width: 100%; 
+  
+  margin: 0px;
+}
+
+
+main figure.myphoto {
+  width: 100%;
+
+}
+main figure.myphoto img {
+  width: 100%;
+}
+
+main section figure {
+  width: 50%
+
+}
+
+
+main section figure img { 
+  width: 100%; 
+
+
+}
+
+
+
+ 
+main .wrapweather {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+ 
+ }
+
+ main .weather {
+  
+  min-width: 30%;
+  max-width: 48%;
+  display: flex;
+  flex-flow: row wrap; 
+  justify-content: center;
+  text-align: center;
+ font-size: auto;
+}
+
+ main .highlow {
+  display: flex;
+  vertical-align: top;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+width: 50%;
+  margin: 5px;
+ 
+
+ 
+}
+
+main .current {
+  display: flex;
+  vertical-align: top;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 5px;
+ 
+ width: 50%;
+}
+
+main .conditions {
+  display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+  margin: 5px;
+  
+  width: 100%;
+}
+
+
+main .townphoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
+
+  
+}
+
+.conditions p {
+  margin: 5px;
+}
+
+.highlow p{
+  margin: 5px;
+
+}
+
+
+
+
+
+
+table {
+  border-collapse: collapse;
+}
+thead {
+  background-color: #edecda;
+  
+}
+
+
+td, th {
+  border: 1px solid #4971b2 ;
+  padding: 3px;
+}
+
+picture{
+  width: 50%;
+  height: auto;
+}
+
+
+section {
+  
+}
+
+
+
+article p.town-article img {  
+  width: 100%; 
+  margin: auto; 
+  float:right; 
+
+}
+
+
+
+footer {
+
+  background-color: #d8d9de;
+  color: black;
+  padding: 20px;
+  text-align: center; 
+  font-size: .7em;
+  clear: right;
+
+}
+footer aside {}
+footer>p {} 
+
+
+
+
+
+@media only screen and (max-width: 38.5em) {
+.forecast {
+  display:none;
+}
+
+nav{
+  padding: 0px;
+  margin:0px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:#aec4e8 ;
+  
+  
+}
+
+nav li{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+  border: 1px solid #aec4e8;
+
+}
+  
+nav ul li a {
+  display: flex;
+  color:#2f78ed ;
+  padding: 10px;
+  text-decoration: none;
+  
+  
+
+}
+
+
+nav ul li.active a {
+  background-color:#dce1ea ;
+  
+
+}
+
+nav ul li a:hover {
+  background-color:#82b1ff;
+  
+
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px 1em;
+}
+
+
+
+}

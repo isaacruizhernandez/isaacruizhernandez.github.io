@@ -1,0 +1,270 @@
+/* This main css file */
+
+* { box-sizing: border-box;}  
+
+body {
+  font-size: 18px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+
+
+header, nav, main, footer { 
+
+  
+}
+img {
+  max-width: 100%;
+  height: auto;
+  overflow: auto;
+}
+
+header {
+  background-color:#1d62c2;
+  padding: 20px;
+  overflow: auto;
+
+
+}
+header h1 {
+ 
+  margin: 20px 10px 20px 150px;
+     color: #aabfe2;
+ 
+}
+
+header img {
+  float: left;
+  min-height: 100%;
+  
+  
+}
+header .subheading {
+  color: #edecda;
+  margin: 20px 10px 20px 150px;
+  
+}
+
+
+
+
+nav button {
+
+  font-size: 3em;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+
+
+h1, h2, h3, p {
+ 
+  overflow: auto;
+  
+  
+}
+h3 {
+  background-color: #377def;
+  color: #edecda;
+  padding: 10px;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+
+}
+
+main {
+  padding: 30px;
+  
+  margin: 5px;
+
+}
+main h2 {
+  font-weight: bold;
+
+}
+
+
+
+main figure { 
+  
+  width: 100%; 
+  
+  margin: 0px;
+}
+
+
+main figure.myphoto {
+  width: 100%;
+
+}
+main figure.myphoto img {
+  width: 100%;
+}
+
+main section figure {
+  width: 50%
+
+}
+
+
+main section figure img { 
+  width: 100%; 
+
+
+}
+
+main .highlow {
+  display: inline-block;
+  vertical-align: top;
+
+  margin: 5px;
+  
+ 
+}
+
+main .current {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+ 
+
+}
+
+ /*.current h2 {
+  margin: 0px;
+}*/
+
+main .conditions {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+  
+}
+
+main .townphoto {
+  display: inline-block;
+}
+
+main .weather {
+  
+  min-width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+main .wrapweather {
+  text-align: center;
+}
+
+
+
+
+table {
+  border-collapse: collapse;
+}
+thead {
+  background-color: #edecda;
+  
+}
+
+
+td, th {
+  border: 1px solid #352e26;
+  padding: 3px;
+}
+
+picture{
+  width: 50%;
+  height: auto;
+}
+
+
+section {
+  
+}
+article {
+  
+  
+}
+
+article p.town-article img {  
+  width: 100%; 
+  margin: auto;  
+}
+
+
+
+footer {
+
+  background-color: #d8d9de;
+  color: black;
+  padding: 20px;
+  text-align: center; 
+  font-size: .7em;
+  clear: right;
+
+}
+footer aside {}
+footer>p {} 
+
+
+
+
+
+@media only screen and (max-width: 37.5em) {
+.forecast {
+  display:none;
+}
+
+nav{
+  padding: 0px;
+  margin:0px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:#aabfe2; ;
+  
+  
+}
+
+nav li{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+  border: 1px solid #352e26;
+
+}
+  
+nav ul li a {
+  display: block;
+  color: #352e26;
+  padding: 10px;
+  text-decoration: none;
+  
+  
+
+}
+
+
+nav ul li.active a {
+  background-color:#aabfe2;;
+  
+
+}
+
+nav ul li a:hover {
+  background-color:#aabfe2; ;
+  
+
+}
+
+
+}

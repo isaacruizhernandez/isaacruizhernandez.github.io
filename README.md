@@ -1,2 +1,1 @@
-# isaacruizhernandez.github.io
-CIT 230 
+# byuigitcit230
