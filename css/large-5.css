@@ -1,0 +1,239 @@
+
+/*tablet*/
+ @media screen and (max-width:880px) and (min-width: 400px){
+    #menu{
+        display:none;
+    }
+    
+
+/* CSS Document */
+
+.slicknav_menu {
+	display: block;  
+}
+#menu {
+	float: right;
+	padding: 7px;
+	
+}
+#menu li {
+	display: inline;
+	color: black;
+}
+#menu li a {
+	text-decoration: none;
+	color: black;
+	padding: 8px;
+}
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+/* Image Background */
+
+     .lista{
+         
+         
+         background-color:blue;
+     }
+     
+     
+     .lista li {
+    display:none;
+    color:black;
+    padding-right: 15px; 
+    margin-bottom: auto;
+    padding-bottom: 80px;
+}
+
+.lista a {
+    text-decoration:none;
+    color:black;
+}
+.boxe
+
+{
+	padding: 52px 0px 72px 72px;
+	background-image: url(../images/uweather_banner.jpg);
+	background-size:cover;
+   
+
+}
+
+.blackBox {
+	background-color: black;
+	width: auto;
+}
+
+
+
+.designer {
+	color: #1d62c2;
+	text-align: left;
+	font-size: 33px;
+	font-weight: 800;
+    margin-top:0%
+
+}
+
+h1 {
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 800;
+	
+}
+main {
+	display: block;
+}
+.document{
+	
+	color:#FFFFFF;
+	margin-right:20%;
+	padding-bottom: 20%;
+    padding-top:0%;
+    float:bottom;
+}
+
+.document a{
+    
+    text-decoration:none;
+    color:#FFFFFF;
+   
+}
+
+
+
+.basic{
+    
+    margin-bottom: -1px;
+     padding-bottom:20px;
+}
+.basic a{
+    
+    text-decoration:none;
+    color:#FFFFFF;
+   
+}
+
+.button{
+	
+	background-color:#1d62c2;
+	text-decoration:none;
+	padding: 8px 30px ;
+	color:#FFFFFF;
+	margin-bottom: 10px;
+
+}
+
+.log{
+    padding-top:15px;
+    float:right;
+}
+
+.movement{
+    float:right;
+    display:none;
+}
+.arriba tr th{
+    background-color:#377def;
+    display:none;
+   
+}
+
+.abajo tr td {
+    background-color:#bfd7fc;
+    display:none;
+}
+.top{
+    color:white;
+
+}
+
+
+
+.content{
+    color:white;
+}
+
+.dentro{
+    background-color:#79a1d9;
+}
+
+.footerEnd{
+	list-style: none;
+	text-align:center;
+	margin-top:9%;
+    text-decoration:none;
+    background-color: #bfd7fc;
+    bottom: 0;
+  
+    width: 100%;
+    
+}
+
+.footerEnd ul{
+    text-decoration:none;
+    display:inline-block;
+    list-style-type: none;
+}
+
+.footerEnd li a {
+    color:black;
+    text-decoration:none;
+    
+    
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+.town-article{
+  text-align: center;
+   
+    
+
+    
+}
+
+.conditions{
+    text-align:center;
+}
+
+.current{
+    float:right;
+}
+
+.highlow{
+    float:left;
+    
+}
+
+
+button{
+    display:none;
+    
+
+}
+
+
+#menu{
+    display:none;
+}
+/*Tablet View*/
+
+@media(max-width:768px) {
+
+    button  {
+        display:none;
+    }
+}
+
+
