@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bikes for Sale| Name brand bikes for a great price.</title>
+    <meta name="author" content="Isaac Ruiz">
+    <meta name="description" content="Bike Sale .">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <!-- Google API font reference The HTML validator was giving an error for all the fonts to be in 1 link. :( -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- default styles - all screen sizes -->
+
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <script>
+        $(function () {
+            jQuery('.ss_button').on('click', function () {
+                jQuery('.ss_content').slideUp('fast');
+                jQuery(this).next('.ss_content').slideDown('fast');
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.svg" alt="The site logo" width="120">
+        </div>
+        <div class="title">
+            <h1>The Mountain
+                <span class="spoke">Spoke</span>
+            </h1>
+            <div class="subheading">Bozeman Bike Tours, Sales & Service</div>
+        </div>
+
+    </header>
+
+    <!-- site navigation -->
+    <nav>
+        <button onclick="toggleNavMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="tours.html">Tours</a>
+            </li>
+            <li>
+                <a href="events.html">Events</a>
+            </li>
+            <li class="active">
+                <a href="sales.html">Sales</a>
+            </li>
+            <li>
+                <a href="service.html">Service</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+
+        <div class="sales-wrapper">
+            <section class=sales-section1>
+                <h1>Mountain Bikes for Sale</h1>
+                <p> The Mountain Spoke sells only the best and will find what is best for your next adventure.</p>
+                <h4>See below for more details:</h4>
+
+                <div class="ss_menu">
+                    <div class="ss_button">Photo</div>
+                    <div class="ss_content">
+                        <p>
+                            <img src="images/mountain-bike-sale.jpg" alt="mountain bike ">
+                        </p>
+                    </div>
+                    <div class="ss_button">Specifications</div>
+                    <div class="ss_content">
+                        <ul>
+                            <li>
+                                Aluminum or carbon frames
+                            </li>
+                            <li>Shimano components </li>
+                            <li>Front and Rear Derailleur </li>
+                        </ul>
+                    </div>
+                    <div class="ss_button">Reviews</div>
+                    <div class="ss_content">
+                        <blockquote> "I bought my mountain bike from The Mountain Spoke and I would never buy from some where else !"" </blockquote>
+                    </div>
+
+                </div>
+
+            </section>
+            <section class=sales-section2>
+                <h1>Road Bikes for Sale</h1>
+                <p> Road bikes are at a good price because we alweays have discounts and for any age!</p>
+                <h4>See below for more details:</h4>
+
+                <div class="ss_menu">
+                    <div class="ss_button">Photo</div>
+                    <div class="ss_content">
+                        <p>
+                            <img src="images/road-bike-sale.jpg" alt="road bike in front of art">
+                        </p>
+                    </div>
+                    <div class="ss_button">Specifications</div>
+                    <div class="ss_content">
+                        <ul>
+                            <li>
+                                Aluminum or carbon frames
+                            </li>
+                            <li>Shimano components </li>
+                            <li>Front and Rear Derailleur </li>
+                        </ul>
+                    </div>
+                    <div class="ss_button">Reviews</div>
+                    <div class="ss_content">
+                        <blockquote>"This is the best place to go for an adventure "</blockquote>
+                    </div>
+
+                </div>
+            </section>
+            <section class=sales-section3>
+                <h1>Cruiser Bikes for Sale</h1>
+                <p> Simple with a grea diverity of options we only have the best for you </h4>
+
+
+                <div class="ss_menu">
+                    <div class="ss_button">Photo</div>
+                    <div class="ss_content">
+                        <p>
+                            <img src="images/cruiser-bike-sale.jpg" alt="stack of cruiser bikes">
+                        </p>
+                    </div>
+                    <div class="ss_button">Specifications</div>
+                    <div class="ss_content">
+                        <ul>
+                            <li>
+                                Aluminum or carbon frames
+                            </li>
+                            <li>Shimano components </li>
+                            <li>Front and Rear Derailleur </li>
+                        </ul>
+                    </div>
+                    <div class="ss_button">Reviews</div>
+                    <div class="ss_content">
+                        <blockquote>"Thie is the best adventure that one can have is ."</blockquote>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+
+
+
+
+    </main>
+
+    <footer>
+        <aside>
+            The Mountain Spoke | 3950 Valley Commons Drive | Bozeman, MT |
+            <a href="https://www.wunderground.com/weather/us/mt/bozeman">Today's Weather</a>
+        </aside>
+        <p class="footer-bar">&copy;2018 All Rights Reserved | Site author: Isaac Ruiz |
+            <span id="currentdate">Current Date Placeholder</span> |
+            <a href="/video.html">Video presentation</a>
+        </p>
+    </footer>
+
+    <script src="scripts/hamburger.js "></script>
+    <script src="scripts/currentdate.js "></script>
+
+
+
+
+
+</body>
+
+
+</html>
